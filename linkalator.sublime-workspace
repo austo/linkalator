@@ -1,0 +1,224 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"USER",
+				"USER_NAMES	(global, instance)"
+			],
+			[
+				"A",
+				"AnonymousUser"
+			],
+			[
+				"login",
+				"login_manager	(global, instance)"
+			],
+			[
+				"User",
+				"UserMixin	(imported, instance)"
+			],
+			[
+				"a",
+				"append	(builtin, function)"
+			],
+			[
+				"a_c",
+				"a_commission	(local, instance)"
+			],
+			[
+				"a_",
+				"a_id	(local, instance)"
+			],
+			[
+				"c",
+				"cancel"
+			],
+			[
+				"p",
+				"python"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"col",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Rope: New Project"
+			],
+			[
+				"pak",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/austin/devProjects/python/cormarant/cormarant/templates/login.html",
+		"/Users/austin/devProjects/python/cormarant/cormarant/templates/layout.html",
+		"/Users/austin/devProjects/python/cormarant/cormarant/templates/index.html",
+		"/Users/austin/devProjects/python/cormarant/cormarant/user.py",
+		"/Users/austin/devProjects/python/cormarant/cormarant/static/css/style.css",
+		"/Users/austin/devProjects/python/cormarant/cormarant/templates/secret.html",
+		"/Users/austin/devProjects/python/cormarant/cormarant/templates/reauth.html",
+		"/Users/austin/devProjects/python/cormarant/app.log",
+		"/Users/austin/devProjects/python/cormarant/cormarant/views.py",
+		"/Users/austin/devProjects/python/cormarant/cormarant_pkg.sublime-project",
+		"/Users/austin/devProjects/python/cormarant/cormarant/templates/app.log",
+		"/Users/austin/devProjects/python/cormarant/runserver.py",
+		"/Users/austin/devProjects/python/cormarant/cormarant/__init__.py",
+		"/Users/austin/devProjects/python/cormarant/cormarant.sublime-project",
+		"/Users/austin/devProjects/python/linkalator/getOracleJson.py",
+		"/Users/austin/devProjects/python/linkalator/getAgents.py",
+		"/Volumes/datastore/devProjects/python/linkalator/linkalator.sublime-project",
+		"/Users/austin/devProjects/python/linkalator/agent.py",
+		"/Users/austin/devProjects/python/linkalator/linkalator.sublime-project",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/austin/devResources/python_encryption_wrapper.py",
+		"/Users/austin/devProjects/python/fserv/ftest6.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"	{ \"keys\": [\"super+shift+b\"], \"command\": \"build\", \"args\": {\"variant\": \"Run\"} },\n",
+			"build"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"con",
+				"/Users/austin/devProjects/python/fserv/ftest6.py"
+			],
+			[
+				"res",
+				"/Users/austin/devProjects/python/fserv/ftest6.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true
+}
