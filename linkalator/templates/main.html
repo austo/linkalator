@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agents example</title>
+    <script src="/static/lib/jquery-1.8.1.js"></script>
+    <script src="/static/lib/jquery.validate.js"></script>
+    <script src="/static/lib/jquery-ui-1.8.11.min.js"></script>
+    <script src="/static/lib/knockout-2.1.0.js"></script>
+    <script src="/static/js/o_viewmodel.js"></script>
+    <script src="/static/js/confab.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/themes/base/jquery-ui-1.8.20.custom.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/site.css" />    
+</head>
+<body>
+    <script type="text/javascript">
+        $(function() {
+            CONFAB.ensureObjectCreate();
+            CONFAB.ensureStringStartsWith();
+            CONFAB.pageAgents = new CONFAB.AgentModel();
+        });
+    </script>
+    </div>    
+    <div class='liveExample' style="height: 99%">       
+        <div>
+            <form action=''>
+            <table style="width: 300px;">
+                <tr>
+                    <td style="text-align: left">
+                    </td>
+                    <td style="text-align: right">
+                        <p>
+                            Total agents:&nbsp;<span data-bind='text: agents().length'>&nbsp;</span>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <table id="uxAgents" style="border-collapse: collapse; border-spacing: 0">
+                <thead style="background: #4B9E5F; border-color: #4B9E5F;">
+                    <tr style="color: white; font-weight: bold; font-size: 1.2em">
+                        <th style="width: 80px">
+                            ID
+                        </th>
+                        <th style="width: 210px">
+                            Name
+                        </th>
+                        <th style="width: 300px;">
+                            City
+                        </th>
+                        <th style="width: 110px">
+                            Commission
+                        </th>                        
+                    </tr>
+                </thead>
+                <tbody data-bind='foreach: agents'>
+                    <tr>
+                        <td>
+                            <div style="width: 100%" data-bind="text: id">                                
+                            </div>
+                        </td>
+                        <td style="padding-left: 20px;">
+                            <div style="width: 100%" data-bind="text: name">                                
+                            </div>
+                        </td>
+                         <td style="padding-left: 20px;">
+                            <div style="width: 100%" data-bind="text: city">                                
+                            </div>
+                        </td>
+                         <td style="padding-left: 20px;">
+                            <div style="width: 100%" data-bind="text: commission">                                
+                            </div>
+                        </td>                        
+                    </tr>
+                </tbody>
+            </table>            
+            </form>
+        </div>    
+</body>
+</html>
