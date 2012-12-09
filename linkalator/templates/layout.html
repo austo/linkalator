@@ -1,13 +1,76 @@
 <!doctype html>
-<title>Flaskr</title>
+<title>Linkalator</title>
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/style.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename='lib/jquery-1.8.1.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/confab.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/linkalator.js') }}"></script>
+
+<script type="text/javascript">
+$(function(){
+  var page = new CONFAB.LinkalatorPage();
+  $('.pagelink').each(function(){
+    var _href = $(this);
+    _href.attr('target', '_blank');
+    _href.click(function(){
+      var linkId = _href.parent().val();
+      page.incrementClickCount(linkId);
+    });
+  });
+  $('.pagelinkbutton').each(function(){
+    var _button = $(this);
+    _button.click(function(){
+      var linkId = _button.parent().val();
+      page.confirmLinkDelete(linkId);
+    });
+  });
+});
+</script>
 <div class=page>
-  <h1>Linkalator</h1>
+  <table>
+    <tr>
+      <td>
+        <a href="{{ url_for('index') }}">
+        <img src="{{ url_for('static', filename='img/croc_med.jpg') }}"/></a>
+    </td>
+    <td style="text-align: left; vertical-align:bottom;">
+      <a href="{{ url_for('index') }}"><h1 style="position:relative; left:-50px;">Linkalator</h1></a>
+    </td>
+    </tr>
+  </table>
   <div class=metanav>
   {% if not session.logged_in %}
-    <a href="{{ url_for('login') }}">log in</a>
+  <table>
+    <tr>
+      <td>
+        <a href="{{ url_for('login') }}">log in</a>
+      </td>
+      <td class=menu-left>
+        <a href="{{ url_for('register') }}">register</a>
+      </td> 
+      </tr>
+    <table>     
   {% else %}
-    <a href="{{ url_for('logout') }}">log out</a>
+  <div>
+  <table>
+    <tr>
+      <td>
+        Hi, {{ session.current_user_name }}!        
+      </td>
+      <td>
+          <a href="{{ url_for('index') }}">pages</a>
+      </td>
+       <td class=menu-left>
+          <a href="{{ url_for('statistics') }}">statistics</a>
+      </td>
+      <td class=menu-left>
+        <a href="{{ url_for('get_project_source') }}">project source code</a>
+      </td>
+      <td class=menu-left>
+        <a href="{{ url_for('logout') }}">log out</a>
+      </td>
+    </tr>
+  </table>
+  </div>
   {% endif %}
   </div>
   {% for message in get_flashed_messages() %}

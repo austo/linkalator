@@ -4,6 +4,266 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"border-l",
+				"border-left-width"
+			],
+			[
+				"border-c",
+				"border-right-color"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"br",
+				"border-right"
+			],
+			[
+				"bord",
+				"border-left"
+			],
+			[
+				"ret",
+				"retVal	(local, instance)"
+			],
+			[
+				"try",
+				"try	Try/Except/Finally"
+			],
+			[
+				"add",
+				"add_url_rule"
+			],
+			[
+				"link",
+				"link_id	(local, instance)"
+			],
+			[
+				"increment",
+				"incrementClickCount"
+			],
+			[
+				"ci",
+				"confirmLinkDelete"
+			],
+			[
+				"L",
+				"LINKALATOR"
+			],
+			[
+				"in",
+				"incrementClickCount"
+			],
+			[
+				"h",
+				"http_prefix	(attribute, instance)"
+			],
+			[
+				"cl",
+				"clean_href"
+			],
+			[
+				"to",
+				"top_users"
+			],
+			[
+				"lin",
+				"link_stats"
+			],
+			[
+				"get",
+				"get_statistics()	(attribute, function)"
+			],
+			[
+				"top",
+				"top_users"
+			],
+			[
+				"vi",
+				"view_func"
+			],
+			[
+				"a",
+				"add_url_rule"
+			],
+			[
+				"get_link",
+				"get_link_stats()	(attribute, function)"
+			],
+			[
+				"get_t",
+				"get_top_entry_pages()	(attribute, function)"
+			],
+			[
+				"ge",
+				"get_page_gateway_totals()	(attribute, function)"
+			],
+			[
+				"data",
+				"DataLayer"
+			],
+			[
+				"cur",
+				"current_page_name	(local, instance)"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"sess",
+				"session_users"
+			],
+			[
+				"user",
+				"user_sessions"
+			],
+			[
+				"gate",
+				"gateway_totals"
+			],
+			[
+				"P",
+				"Page_gateway_total	(imported, class)"
+			],
+			[
+				"Lin",
+				"Link_stat	(imported, class)"
+			],
+			[
+				"Pa",
+				"Page_gateway_total	(global, class)"
+			],
+			[
+				"exit",
+				"exit_count	(local, instance)"
+			],
+			[
+				"en",
+				"entry_count	(local, instance)"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"page",
+				"page_id"
+			],
+			[
+				"cu",
+				"current_user_id	(attribute, instance)"
+			],
+			[
+				"us",
+				"user_id	(local, instance)"
+			],
+			[
+				"sta",
+				"start_page_id	(local, instance)"
+			],
+			[
+				"lo",
+				"logger"
+			],
+			[
+				"dat",
+				"DataLayer"
+			],
+			[
+				"vie",
+				"views	(imported, instance)"
+			],
+			[
+				"sessi",
+				"session	(imported, instance)"
+			],
+			[
+				"end",
+				"end_page_id	(local, instance)"
+			],
+			[
+				"re",
+				"requested_page_id	(attribute, instance)"
+			],
+			[
+				"req",
+				"requested_page_id	(local, instance)"
+			],
+			[
+				"deactive",
+				"deactivate_page"
+			],
+			[
+				"co",
+				"cursor"
+			],
+			[
+				"sessio",
+				"session_id	(local, instance)"
+			],
+			[
+				"ses",
+				"session_id	(local, instance)"
+			],
+			[
+				"call",
+				"callproc"
+			],
+			[
+				"pag",
+				"page_id	(local, instance)"
+			],
+			[
+				"reqe",
+				"requested_page_id"
+			],
+			[
+				"pass",
+				"password_field	(attribute, instance)"
+			],
+			[
+				"move",
+				"move_to"
+			],
+			[
+				"sh",
+				"show_pages"
+			],
+			[
+				"show",
+				"show_link_page"
+			],
+			[
+				"view",
+				"view_func"
+			],
+			[
+				"ap",
+				"api_agents"
+			],
+			[
+				"v",
+				"view_func"
+			],
+			[
+				"l",
+				"linkalator"
+			],
+			[
 				"USER",
 				"USER_NAMES	(global, instance)"
 			],
@@ -18,10 +278,6 @@
 			[
 				"User",
 				"UserMixin	(imported, instance)"
-			],
-			[
-				"a",
-				"append	(builtin, function)"
 			],
 			[
 				"a_c",
@@ -43,20 +299,87 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "linkalator/static/css/style.css",
+			"settings":
+			{
+				"buffer_size": 1827,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "linkalator/templates/layout.html",
+			"settings":
+			{
+				"buffer_size": 2289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/austin/.bash_profile",
+			"settings":
+			{
+				"buffer_size": 607,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Volumes/datastore/devProjects/python/linkalator/linkalator.sublime-project",
+			"settings":
+			{
+				"buffer_size": 1327,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "linkalator/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 657,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{% extends \"layout.html\" %}\n{% block body %}\n  {% if session.logged_in %}\n    <form action=\"{{ url_for('add_link') }}\" method=post class=add-entry>\n      <dl>\n        <dt class=lightpadding>Description:\n        <dd class=shiftright><textarea rows=1 cols=30 name=title></textarea>\n        <dt class=lightpadding style=\"padding-top:15px;\">Link (you can drag from your bookmarks bar):\n        <dd class=shiftright><textarea name=text rows=2 cols=60></textarea>\n        <dd class=shiftright style=\"padding-top:5px;\"><input type=submit value=Share>\n      </dl>\n    </form>\n  {% endif %}\n  <ul class=\"entries\">\n  {% for link in links %}\n    <li value=\"{{ link.id }}\"><a class=\"pagelink\" href='{{ link.href }}'><h2>{{ link.display_text }}</h2></a>\n      <button class=\"pagelinkbutton\">Delete</button>\n  {% else %}\n    <li><em>Unbelievable.  No links added yet.</em>\n  {% endfor %}\n  </ul>\n{% endblock %}",
+			"file": "linkalator/templates/show_links.html",
+			"file_size": 896,
+			"file_write_time": 1354816704000000,
+			"settings":
+			{
+				"buffer_size": 896,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "linkalator/templates/stats.html",
+			"settings":
+			{
+				"buffer_size": 5056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "linkalator/templates/register.html",
+			"settings":
+			{
+				"buffer_size": 442,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "cx_oracle_shell",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"col",
-				"ColorSchemeSelector: Select Color Scheme"
-			],
-			[
 				"pack",
 				"Package Control: Install Package"
+			],
+			[
+				"col",
+				"ColorSchemeSelector: Select Color Scheme"
 			],
 			[
 				"",
@@ -84,6 +407,30 @@
 	},
 	"file_history":
 	[
+		"/Users/austin/devProjects/python/linkalator/linkalator.sublime-project",
+		"/Users/austin/devProjects/python/linkalator/app.log",
+		"/Users/austin/devProjects/python/linkalator/linkalator/templates/stats.html",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/austin/devProjects/python/linkalator/linkalator/settings.py",
+		"/Users/austin/devProjects/python/linkalator/todos.txt",
+		"/Users/austin/devProjects/python/linkalator/linkalator/templates/layout.html",
+		"/Users/austin/devProjects/python/linkalator/linkalator/cfg.py",
+		"/Users/austin/devProjects/python/linkalator/linkalator/data_classes.py",
+		"/Users/austin/devProjects/python/linkalator/linkalator/templates/login.html",
+		"/Users/austin/devProjects/python/linkalator/linkalator/templates/index.html",
+		"/Users/austin/devProjects/python/linkalator/linkalator/templates/show_links.html",
+		"/Volumes/datastore/devProjects/xdb_change.sql",
+		"/Users/austin/devProjects/python/linkalator/runserver.py",
+		"/Users/austin/devProjects/python/linkalator/linkalator/static/css/style.css",
+		"/Volumes/datastore/devProjects/python/linkalator/linkalator/templates/show_links.html",
+		"/Users/austin/devProjects/python/linkalator/linkalator/__init__.py",
+		"/Users/austin/devProjects/python/linkalator/venv_ex_py.sh",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/austin/.bash_profile",
+		"/etc/hostconfig",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
 		"/Users/austin/devProjects/python/cormarant/cormarant/templates/login.html",
 		"/Users/austin/devProjects/python/cormarant/cormarant/templates/layout.html",
 		"/Users/austin/devProjects/python/cormarant/cormarant/templates/index.html",
@@ -102,9 +449,6 @@
 		"/Users/austin/devProjects/python/linkalator/getAgents.py",
 		"/Volumes/datastore/devProjects/python/linkalator/linkalator.sublime-project",
 		"/Users/austin/devProjects/python/linkalator/agent.py",
-		"/Users/austin/devProjects/python/linkalator/linkalator.sublime-project",
-		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/User/BracketHighlighter.sublime-settings",
 		"/Users/austin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -127,6 +471,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"get_links",
+			"change_current_page",
+			"h1",
+			"{% endblock %}",
+			"user_session_id",
+			"dl = DataLayer",
+			"create_user",
+			"show_pages",
+			"right",
+			"end",
+			"add_entry",
+			"show_entries",
+			"Sh",
+			"show_entries",
 			"	{ \"keys\": [\"super+shift+b\"], \"command\": \"build\", \"args\": {\"variant\": \"Run\"} },\n",
 			"build"
 		],
@@ -136,6 +494,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"h2",
+			"index"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -146,8 +506,229 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "linkalator/static/css/style.css",
+					"settings":
+					{
+						"buffer_size": 1827,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "linkalator/templates/layout.html",
+					"settings":
+					{
+						"buffer_size": 2289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								780,
+								780
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/austin/.bash_profile",
+					"settings":
+					{
+						"buffer_size": 607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Volumes/datastore/devProjects/python/linkalator/linkalator.sublime-project",
+					"settings":
+					{
+						"buffer_size": 1327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "linkalator/templates/index.html",
+					"settings":
+					{
+						"buffer_size": 657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "linkalator/templates/show_links.html",
+					"settings":
+					{
+						"buffer_size": 896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "linkalator/templates/stats.html",
+					"settings":
+					{
+						"buffer_size": 5056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "linkalator/templates/register.html",
+					"settings":
+					{
+						"buffer_size": 442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -186,16 +767,28 @@
 	{
 		"height": 100.0
 	},
+	"output.git":
+	{
+		"height": 100.0
+	},
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
-	"save_all_on_build": true,
+	"save_all_on_build": false,
 	"select_file":
 	{
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"util",
+				"linkalator/util.py"
+			],
+			[
+				"tp",
+				"linkalator.sublime-project"
+			],
 			[
 				"con",
 				"/Users/austin/devProjects/python/fserv/ftest6.py"
@@ -219,6 +812,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 161.0,
+	"side_bar_width": 109.0,
 	"status_bar_visible": true
 }

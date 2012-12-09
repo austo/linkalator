@@ -2,45 +2,19 @@
 	"folders":
 	[
 		{
-			"path": "/hd/devProjects/python/linkalator"
+			"path": "/Users/austin/devProjects/python/linkalator"
 		}
 	],
     "build_systems":
     [
         {
-            "cmd":
-            [
-                "arch",
-                "-i386",
-                "/Users/austin/devProjects/python/venv/bin/python",
-                "$file"
-            ],
-            "env":
-            {
-                "DYLD_LIBRARY_PATH": "/usr/local/oracle/instantclient_10_2",
-                "LD_LIBRARY_PATH": "/usr/local/oracle/instantclient_10_2",
-                "ORACLE_HOME": "/usr/local/oracle/instantclient_10_2",
-                "VERSIONER_PYTHON_PREFER_32_BIT": "yes"
-            },
-            "name": "oracle_cx"
-        },
-        {
-            "working_dir": "/hd/devProjects/python/linkalator",
+            "working_dir": "/Users/austin/devProjects/python/linkalator",
             "cmd":
             [
                 "./venv_ex_py.sh",
-                "runserver.py"
+                "run_dev.py"
             ],
-            "name": "cx_oracle_shell"
-        },
-        {
-            "working_dir": "/hd/devProjects/python/linkalator",
-            "cmd":
-            [
-                "python",
-                "runserver.py"
-            ],
-            "name": "my_python"
+            "name": "cx_oracle_venv_32"
         }
     ]
 }
