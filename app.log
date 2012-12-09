@@ -1,0 +1,22 @@
+2012-12-06 13:04:02,402 | Level: INFO | Message: lowest page id: 5
+2012-12-06 13:04:02,445 | Level: INFO | Message: user_id: 1, requested_page_id: 5, session_id: 63
+2012-12-06 13:04:03,575 | Level: INFO | Message: link href: http://www.smak.com
+2012-12-06 15:07:29,221 | Level: INFO | Message: lowest page id: 5
+2012-12-06 15:07:29,260 | Level: INFO | Message: user_id: 1, requested_page_id: 5, session_id: 64
+2012-12-06 15:07:58,528 | Level: INFO | Message: link href: http://www.blah.com
+2012-12-06 15:08:31,170 | Level: INFO | Message: link href: http://www.smooth.com
+2012-12-06 16:40:33,100 | Level: INFO | Message: lowest page id: 5
+2012-12-06 16:40:33,135 | Level: INFO | Message: user_id: 1, requested_page_id: 5, session_id: 65
+2012-12-06 16:41:07,181 | Level: INFO | Message: link href: http://www.nytimes.com
+2012-12-06 16:42:49,913 | Level: INFO | Message: user_id: 1, requested_page_id 5
+2012-12-06 23:52:53,008 | Level: INFO | Message: user_id: 1, requested_page_id 6
+2012-12-09 00:50:02,074 | Level: INFO | Message: lowest page id: 5
+2012-12-09 00:50:02,108 | Level: INFO | Message: user_id: 14, requested_page_id: 5, session_id: 127
+2012-12-09 00:50:08,932 | Level: INFO | Message: link href: http://www.smartypants.com
+2012-12-09 00:55:01,776 | Level: INFO | Message: link href: http://www.smartypants.com
+2012-12-09 00:58:01,889 | Level: INFO | Message: link href: http://www.smartypants.com
+2012-12-09 01:08:00,350 | Level: INFO | Message: lowest page id: 5
+2012-12-09 01:08:00,397 | Level: INFO | Message: user_id: 14, requested_page_id: 5, session_id: 128
+2012-12-09 01:08:07,531 | Level: INFO | Message: link href: http://www.smartypants.com
+2012-12-09 01:08:21,944 | Level: INFO | Message: link href: http://www.smartypants.com
+2012-12-09 01:08:21,944 | Level: INFO | Message: link href: http://www.goan.com

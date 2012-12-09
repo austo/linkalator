@@ -1,0 +1,14 @@
+Linkalator TODOs:
+
+Add favicon
+Implement current page in add_link
+Implement add_page with JQuery UI dialog
+Hook login functionality to users table & preserve session_id in 
+Add loging to all top-level methods
+Implement user tracking and page access features
+Link and page created by
+Statistics pages
+
+
+
+flask.request.form['username'] != app.config['USERNAME']:

@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+    <form action="{{ url_for('add_link') }}" method=post class=add-entry>
+      <dl>
+        <dt class=lightpadding>Description:
+        <dd class=shiftright><textarea rows=1 cols=30 name=title></textarea>
+        <dt class=lightpadding style="padding-top:15px;">Link (you can drag from your bookmarks bar):
+        <dd class=shiftright><textarea name=text rows=2 cols=60></textarea>
+        <dd class=shiftright style="padding-top:5px;"><input type=submit value=Share>
+      </dl>
+    </form>
+  {% endif %}
+  <ul class="entries">
+  {% for link in links %}
+    <li value="{{ link.id }}"><a class="pagelink" href='{{ link.href }}'><h2>{{ link.display_text }}</h2></a>
+      <button class="pagelinkbutton">Delete</button>
+  {% else %}
+    <li><em>Unbelievable.  No links added yet.</em>
+  {% endfor %}
+  </ul>
+{% endblock %}

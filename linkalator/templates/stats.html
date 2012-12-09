@@ -1,0 +1,251 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}    
+  {% endif %}
+
+  <h3>Current Users:</h3>
+  <table class=stats>
+    <thead>
+        <tr>
+            <th class=number-left>
+                User ID
+            </th>
+            <th>
+                User Name
+            </th>
+            <th>
+                Current Linkalator Page
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for user in users %}
+          <tr>
+            <td class=number-left>
+                {{ user.id }}
+            </td>
+            <td class=td-text>
+                {{ user.name }}
+            </td>
+            <td class=td-text>
+                {{ user.current_page_name }}
+            </td>
+        </tr>
+  {% else %}
+  <tr>
+    <td colspan="3">
+    <em>No users seem to be logged in... This is obviously a bug.</em>
+    </td>
+  </tr>
+  {% endfor %}
+   </tbody>
+  </table>
+<div>
+    <br/>
+    <br/>
+</div>
+
+
+<h3>Page Gateway Totals:</h3>
+  <table class=stats>
+    <thead>
+        <tr>
+            <th>
+                Linkalator Page
+            </th>
+            <th class=number>
+                Times Used to Enter
+            </th>
+            <th class=number>
+                Times Used to Exit
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for gt in gateway_totals %}
+          <tr>
+            <td class=td-text>
+                {{ gt.name }}
+            </td>
+            <td class=number>
+                {{ gt.entry_count }}
+            </td>
+            <td class=number>
+                {{ gt.exit_count }}
+            </td>
+        </tr>
+  {% else %}
+  <tr>
+    <td colspan="3">
+    <em>No page gateway totals seem to be available... This is obviously a bug.</em>
+    </td>
+  </tr>
+  {% endfor %}
+   </tbody>
+  </table>
+<div>
+    <br/>
+    <br/>
+</div>
+
+
+<h3>Top Entry Pages:</h3>
+  <table class=stats>
+    <thead>
+        <tr>
+            <th>
+                Linkalator Page
+            </th>
+            <th class=number>
+                Times Used to Enter
+            </th>            
+        </tr>
+    </thead>
+    <tbody>
+        {% for et in top_entry_totals %}
+          <tr>
+            <td class=td-text>
+                {{ et.page_name }}
+            </td>
+            <td class=number>
+                {{ et.entry_count }}
+            </td>            
+        </tr>
+  {% else %}
+  <tr>
+    <td colspan="2">
+    <em>No page entry totals seem to be available... This is obviously a bug.</em>
+    </td>
+  </tr>
+  {% endfor %}
+   </tbody>
+  </table>
+<div>
+    <br/>
+    <br/>
+</div>
+
+
+
+<h3>Link Totals:</h3>
+  <table class=stats>
+    <thead>
+        <tr>
+            <th>
+                Link Name
+            </th>
+            <th>
+                Host Page
+            </th>
+            <th>
+                Target Address
+            </th>
+            <th class=number>
+                Times Clicked
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for ls in link_stats %}
+          <tr>
+            <td class=td-text>
+                {{ ls.name }}
+            </td>
+            <td class=td-text>
+                {{ ls.host_page_name }}
+            </td>
+            <td class=td-text>
+                <a href="{{ ls.href }}">{{ ls.href }}</a>
+            </td>
+            <td class=number>
+                {{ ls.access_count }}
+            </td>
+        </tr>
+  {% else %}
+  <tr>
+    <td colspan="4">
+    <em>No link statistics seem to be available... This is obviously a bug.</em>
+    </td>
+  </tr>
+  {% endfor %}
+   </tbody>
+  </table>
+<div>
+    <br/>
+    <br/>
+</div>
+
+
+<h3>User Access Totals:</h3>
+  <table class=stats>
+    <thead>
+        <tr>
+            <th>
+                User Name
+            </th>
+            <th class=number>
+                Total Visits
+            </th>            
+        </tr>
+    </thead>
+    <tbody>
+        {% for su in session_users %}
+          <tr>
+            <td class=td-text>
+                {{ su.user_name }}
+            </td>
+            <td class=number>
+                {{ su.total_sessions }}
+            </td>            
+        </tr>
+  {% else %}
+  <tr>
+    <td colspan="2">
+    <em>No users session information seems to be available... This is obviously a bug.</em>
+    </td>
+  </tr>
+  {% endfor %}
+   </tbody>
+  </table>
+<div>
+    <br/>
+    <br/>
+</div>
+
+
+<h3>Top Users:</h3>
+  <table class=stats>
+    <thead>
+        <tr>
+            <th>
+                User Name
+            </th>
+            <th class=number>
+                Total Visits
+            </th>            
+        </tr>
+    </thead>
+    <tbody>
+        {% for tu in top_users %}
+          <tr>
+            <td class=td-text>
+                {{ tu.user_name }}
+            </td>
+            <td class=number>
+                {{ tu.total_sessions }}
+            </td>            
+        </tr>
+  {% else %}
+  <tr>
+    <td colspan="2">
+    <em>No users session information seems to be available... This is obviously a bug.</em>
+    </td>
+  </tr>
+  {% endfor %}
+   </tbody>
+  </table>
+<div>
+    <br/>
+    <br/>
+</div>
+{% endblock %}
